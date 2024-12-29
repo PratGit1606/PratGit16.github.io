@@ -48,15 +48,14 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5 }}
           >
-            {`> Welcome to Pratham's World!`}
+            {`> Welcome to Pratham&apos;s World!`}
           </motion.div>
         </div>
       )}
 
       {/* Main Content */}
       {showMainContent && (
-        <div className="container max-w-6xl mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-10 border-2 border-green-500 p-6 rounded-md bg-black/80 shadow-lg 
- bg-opacity-10 bg-cover">
+        <div className="container max-w-6xl mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-10 border-2 border-green-500 p-6 rounded-md bg-black/80 shadow-lg bg-opacity-10 bg-cover">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -101,8 +100,7 @@ export default function Hero() {
               <span className="block text-green-500">Pratham@linux:~$</span>
               <span>
                 Merging cutting-edge development with groundbreaking research to create impactful digital solutions. <br />
-                
-                <span className = "text-green-500">ASU Computer Science student striving to push the boundaries of what's possible. <br /></span>
+                <span className="text-green-500">ASU Computer Science student striving to push the boundaries of what&apos;s possible. <br /></span>
                 {`/* Nice to meet you! */`}
               </span>
             </motion.p>
