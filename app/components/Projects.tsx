@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useState } from 'react'
 import Link from 'next/link'
 
 const projects = [
@@ -56,13 +55,9 @@ const projects = [
 ]
 
 function ProjectCard({ project }: { project: typeof projects[0] }) {
-  const [isHovered, setIsHovered] = useState(false)
-
   return (
     <motion.div
       className="group relative rounded-lg overflow-hidden bg-gradient-to-br from-gray-900 to-black"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -71,10 +66,10 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/90 z-10" />
       <div className="relative z-20 p-6 h-full flex flex-col">
         <div className="mb-auto">
-          <Link href = {project.link}>
-          <h3 className="text-xl font-bold tracking-tight mb-1 group-hover:text-green-500 transition-colors duration-200">
-            {project.title}
-          </h3>
+          <Link href={project.link}>
+            <h3 className="text-xl font-bold tracking-tight mb-1 group-hover:text-green-500 transition-colors duration-200">
+              {project.title}
+            </h3>
           </Link>
           <p className="text-sm text-gray-400 mb-4">{project.subtitle}</p>
           <p className="text-sm text-gray-300 mb-6">{project.description}</p>
