@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { Typewriter } from 'react-simple-typewriter'
 import Lottie from 'react-lottie-player'
-import HeroAnimation from '../../../public/Hero.json'
+import HeroAnimation from '../../public/Hero.json'
 import { useState, useEffect } from 'react'
 
 export default function Hero() {
