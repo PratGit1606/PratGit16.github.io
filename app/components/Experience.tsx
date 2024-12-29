@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Lottie from 'react-lottie-player'
-import profAnimation from '../../../public/prof.json'
+import profAnimation from '../../public/prof.json'
 
 const experiences = [
   {
