@@ -38,15 +38,18 @@ export default function About() {
           >
             About Me
           </motion.h2>
-          <p className="mb-4 text-lg text-gray-300 leading-relaxed">
-            Hello! I&apos;m <span className="text-green-500 font-bold">Pratham Hegde</span>, a student at <span className="text-green-500 font-bold">Arizona State University</span>, pursuing a degree in Computer Science with a focus on <span className="text-green-500 font-bold">Cybersecurity</span>. With a <span className="text-green-500">GPA of 3.93/4.0</span>, I&apos;m proud to be part of the <span className="text-green-500 font-bold">Barrett Honors College</span> and the <span className="text-green-500 font-bold">Grand Challenges Scholars Program.</span>
-          </p>
-          <p className="mb-4 text-lg text-gray-300 leading-relaxed">
-            My passion lies in using technology to solve real-world problems and contribute to cutting-edge research. Whether it&apos;s crafting efficient code or exploring new technologies, I&apos;m driven to make an impact.
-          </p>
-          <p className="mb-4 text-lg text-gray-300 leading-relaxed">
-            Beyond academics, I thrive in leadership roles, serving as the <span className="text-green-500">Treasurer</span> for the <span className="text-green-500">Indian Students&apos; Association</span> and the <span className="text-green-500">Director of Finance</span> for <span className="text-green-500">CS+Social Good ASU</span>. These experiences have shaped me into a collaborative and forward-thinking individual.
-          </p>
+<p className="mb-4 text-lg text-gray-300 leading-relaxed">
+  Hello! I&apos;m <span className="text-green-500 font-bold">Pratham Hegde</span>, a student at <span className="text-green-500 font-bold">Arizona State University</span>, pursuing a degree in Computer Science with a focus on <span className="text-green-500 font-bold">Cybersecurity</span>. I&apos;m proud to hold a <span className="text-green-500">GPA of 4.0/4.0</span> and be part of the <span className="text-green-500 font-bold">Barrett Honors College</span> and the <span className="text-green-500 font-bold">Grand Challenges Scholars Program</span>, while conducting hands-on research at the <span className="text-green-500 font-bold">SEFCOM Lab</span>.
+</p>
+<p className="mb-4 text-lg text-gray-300 leading-relaxed">
+  My interests lie at the intersection of systems security and applied cryptography. From reverse engineering x86 and MIPS binaries to crafting shellcode and exploit chains for real-world vulnerabilities, I enjoy solving complex problems hands-on. Through my research and projects, I&apos;ve worked on everything from framebuffer exploits to AES-ECB oracle attacks, aiming to simulate and patch practical threats.
+</p>
+<p className="mb-4 text-lg text-gray-300 leading-relaxed">
+  I also have a strong interest in customer-facing engineering roles, especially those that involve bridging technical knowledge with end-user needs. My experience as a <span className="text-green-500">Web Experience Designer</span> and Teaching Assistant has refined my ability to debug in real-time, work across front-end and back-end systems, and communicate solutions clearly—skills directly.
+</p>
+<p className="mb-4 text-lg text-gray-300 leading-relaxed">
+  Outside of research, I thrive in leadership and creative roles—serving as <span className="text-green-500">President</span> of the <span className="text-green-500">Indian Students&apos; Association</span> and <span className="text-green-500">Director of Finance</span> at <span className="text-green-500">CS+Social Good ASU</span>. I&apos;ve mentored students in C++ as a UGTA, and these roles help me stay grounded in community, communication, and impact.
+</p>
         </motion.div>
       </div>
     </section>
